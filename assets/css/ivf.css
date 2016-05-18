@@ -1,0 +1,582 @@
+/*
+|--------------------------------------------------------------------------
+| Font face for the play buttons
+|--------------------------------------------------------------------------
+|
+*/
+@font-face {
+  font-family: "ivf_play";
+  src: url("../fonts/ivf/ivf.eot");
+  src: url("../fonts/ivf/ivf.eot#iefix") format("embedded-opentype"), url("../fonts/ivf/ivf.woff") format("woff"), url("../fonts/ivf/ivf.ttf") format("truetype"), url("../fonts/ivf/ivf.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.ivf_play-arrow75:before, .ivf_sa-arrow75:before {
+  content: "\e000"; }
+
+.ivf_play-key9:before, .ivf_sa-key9:before {
+  content: "\e001"; }
+
+.ivf_play-play43:before, .ivf_sa-play43:before {
+  content: "\e002"; }
+
+.ivf_play-play6:before, .ivf_sa-play6:before {
+  content: "\e003"; }
+
+.ivf_play-small31:before, .ivf_sa-small31:before {
+  content: "\e004"; }
+
+.ivf_play-youtube12:before, .ivf_sa-youtube12:before {
+  content: "\e005"; }
+
+/*
+|--------------------------------------------------------------------------
+| Play button animation
+|--------------------------------------------------------------------------
+|
+*/
+@keyframes "play" {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); } }
+@-moz-keyframes play {
+  0% {
+    -moz-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -moz-transform: scale(1.2);
+    transform: scale(1.2); }
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1); } }
+@-webkit-keyframes "play" {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+@-ms-keyframes "play" {
+  0% {
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+  100% {
+    -ms-transform: scale(1);
+    transform: scale(1); } }
+/*
+|--------------------------------------------------------------------------
+| i Video Frame styling
+|--------------------------------------------------------------------------
+|
+*/
+.ivf_container {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%; }
+  .ivf_container .i_video_player {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: auto;
+    max-width: 100%; }
+    .ivf_container .i_video_player img.ivf_frame {
+      -moz-box-shadow: none !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: none !important;
+      display: block;
+      position: relative;
+      max-width: 100% !important;
+      height: auto;
+      width: 100%; }
+    .ivf_container .i_video_player .player_wrapper {
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      position: absolute;
+      z-index: 100;
+      overflow: hidden; }
+      .ivf_container .i_video_player .player_wrapper .fluid-width-video-wrapper {
+        position: static !important; }
+      .ivf_container .i_video_player .player_wrapper.plaing {
+        background: transparent !important; }
+      .ivf_container .i_video_player .player_wrapper.mbp {
+        top: 5.5077452668%;
+        left: 12.083333333%;
+        width: 75.9375%;
+        height: 78.485370052%; }
+      .ivf_container .i_video_player .player_wrapper.mba {
+        top: 6.914893617%;
+        left: 13.4375%;
+        width: 73.4375%;
+        height: 78.014184397%; }
+      .ivf_container .i_video_player .player_wrapper.imac {
+        top: 5.418138987%;
+        left: 4.6875%;
+        width: 90.625%;
+        height: 57.832744405%; }
+      .ivf_container .i_video_player .player_wrapper.cd {
+        top: 5.4658385093%;
+        left: 4.6875%;
+        width: 90.520833333%;
+        height: 67.577639752%; }
+      .ivf_container .i_video_player .player_wrapper.iphone {
+        top: 11.854792967%;
+        left: 5.8959537572%;
+        width: 88.092485549%;
+        height: 76.347135564%; }
+      .ivf_container .i_video_player .player_wrapper.iphone_hor {
+        left: 11.854792967%;
+        top: 5.8959537572%;
+        height: 88.092485549%;
+        width: 76.347135564%; }
+      .ivf_container .i_video_player .player_wrapper.ipad {
+        top: 8.7435709037%;
+        left: 6.0416666667%;
+        width: 88.020833333%;
+        height: 82.512858193%; }
+      .ivf_container .i_video_player .player_wrapper.ipad_hor {
+        left: 8.7435709037%;
+        top: 6.0416666667%;
+        height: 88.020833333%;
+        width: 82.512858193%; }
+
+       .ivf_container .i_video_player .player_wrapper.mbgold {
+         height: 57.833%;
+        left: 19.688%;
+        top: 13.418%;
+        width: 63.625%; } 
+         
+        .ivf_container .i_video_player .player_wrapper.mbgrey {
+          height: 56.833%;
+          left: 19.688%;
+          top: 11.418%;
+          width: 63.625%; } 
+
+        .ivf_container .i_video_player .player_wrapper.ipadhor {
+          height: 92.833%;
+          left: 2.688%;
+          top: 3.418%;
+          width: 89.625%; }
+
+        .ivf_container .i_video_player .player_wrapper.ipadver {
+           height: 88.833%;
+          left: 2.699%;
+          top: 2.818%;
+          width: 94.625%;}  
+
+        .ivf_container .i_video_player .player_wrapper.iphonehor {
+            height: 83.833%;
+            left: 4.688%;
+            top: 7.418%;
+            width: 83.625%;}   
+
+      .ivf_container .i_video_player .player_wrapper.iphonever {
+             height: 80.833%;
+            left: 7.688%;
+            top: 7.418%;
+            width: 85.625%;}
+
+       .ivf_container .i_video_player .player_wrapper.iwatchg {
+			height: 61.833%;
+			left: 25.36%;
+			top: 17.418%;
+			width: 46.625%;
+			}
+
+			
+       .ivf_container .i_video_player .player_wrapper.iwatchs {
+			height: 57.833%;
+			left: 28.688%;
+			top: 18.418%;
+			width: 46.625%;
+			}
+
+       .ivf_container .i_video_player .player_wrapper.iwatchw {
+			height: 56.833%;
+			left: 27.488%;
+			top: 22.418%;
+			width: 48.625%;
+		  }
+      
+       .ivf_container .i_video_player .player_wrapper.plasma1 {
+              height: 58.833%;
+              left: 13.321%;
+              top: 16.418%;
+              width: 74.625%;}
+
+       .ivf_container .i_video_player .player_wrapper.plasma2 {
+              height: 58.833%;
+              left: 14.788%;
+              top: 16.418%;
+              width: 69.325%;}
+
+       .ivf_container .i_video_player .player_wrapper.samsungb {
+			height: 64.833%;
+			left: 12.688%;
+			top: 19.418%;
+			width: 72.36%;
+			  }
+
+       .ivf_container .i_video_player .player_wrapper.samsungw {
+			height: 65.833%;
+			left: 13.688%;
+			top: 19.418%;
+			width: 71.36%;
+			  }
+
+       .ivf_container .i_video_player .player_wrapper.dslr {
+              height: 41.833%;
+              left: 13.688%;
+              top: 41.418%;
+              width: 52.925%;}
+        
+        .ivf_container .i_video_player .player_wrapper.htchor {
+               height: 84.833%;
+              left: 9.999%;
+              top: 7.418%;
+              width: 80%;}
+
+        .ivf_container .i_video_player .player_wrapper.htcver {
+              height: 79.933%;
+              left: 7.899%;
+              top: 9.999%;
+              width: 84.125%;}      
+
+      .ivf_container .i_video_player .player_wrapper i.play_btn.admin {
+        /*font-size: 67px !important;
+        margin-left: -35px;*/
+      }
+      .ivf_container .i_video_player .player_wrapper i.play_btn {
+        font-family: ivf_play !important;
+        position: absolute !important;
+        font-size: 85px ;
+        font-style: normal !important;
+        line-height: 140px !important;
+        z-index: 111;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        margin-top: -70px;
+        margin-left: -70px;
+        cursor: pointer; }
+        @media only screen and (max-width: 600px) {
+          .ivf_container .i_video_player .player_wrapper i.play_btn {
+            font-size: 80px !important;
+            line-height: 80px !important;
+            margin-top: -40px;
+            margin-left: -40px; } }
+        .ivf_container .i_video_player .player_wrapper i.play_btn.ivf_play_animation, i.play_animation{
+          -webkit-animation: play 2s linear infinite;
+          -moz-animation: play 2s linear infinite;
+          -ms-animation: play 2s linear infinite;
+          animation: play 2s linear infinite; }
+        .ivf_container .i_video_player .player_wrapper i.play_btn.ivf_play_shadow, i.play_shadow {
+          text-shadow: 0px 0px 20px #3C3C3C; }
+        .ivf_container .i_video_player .player_wrapper i.play_btn.play_small {
+          font-size: 80px !important;
+          line-height: 80px !important;
+          margin-top: -40px;
+          margin-left: -40px; }
+
+/*
+|--------------------------------------------------------------------------
+| iVideoFrame as single image presentation
+|--------------------------------------------------------------------------
+|
+*/
+.ivf_container .i_video_player.no_video i.play_btn {
+  display: none; }
+.ivf_container .i_video_player.no_video .player_wrapper {
+  background: none !important; }
+.ivf_container .i_video_player.no_video .ivf_image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+/*
+|--------------------------------------------------------------------------
+| iVideoFrame as slider
+|--------------------------------------------------------------------------
+|
+*/
+.ivf_container .i_video_player .player_wrapper {
+  /* Slider navigation arrows */
+  /* slide progress bar */
+  /* on slider wrapper hover */ }
+  .ivf_container .i_video_player .player_wrapper .ivf_slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 9999px;
+    height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    background: #000; }
+    .ivf_container .i_video_player .player_wrapper .ivf_slider .ivf_slider_img {
+      width: 0;
+      height: 100%;
+      position: relative;
+      float: left; }
+  .ivf_container .i_video_player .player_wrapper .ivf_sa {
+    font-family: ivf_play !important;
+    position: absolute !important;
+    font-size: 50px !important;
+    font-style: normal !important;
+    line-height: 50px !important;
+    z-index: 111;
+    -ms-transition: all .4s ease-out;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+    color: #fff;
+    top: 50%;
+    opacity: .6;
+    margin-top: -25px;
+    cursor: pointer; }
+    .ivf_container .i_video_player .player_wrapper .ivf_sa.ivf_sa_left {
+      left: -60px;
+      -ms-transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      transform: rotate(180deg); }
+      .ivf_container .i_video_player .player_wrapper .ivf_sa.ivf_sa_left.always_show {
+        left: 10px; }
+    .ivf_container .i_video_player .player_wrapper .ivf_sa.ivf_sa_right {
+      right: -60px; }
+      .ivf_container .i_video_player .player_wrapper .ivf_sa.ivf_sa_right.always_show {
+        right: 10px; }
+    .ivf_container .i_video_player .player_wrapper .ivf_sa.ivf_play_shadow {
+      text-shadow: 0px 0px 10px #3C3C3C; }
+  .ivf_container .i_video_player .player_wrapper .slide_progres {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fff;
+    opacity: .6;
+    display: block; }
+  .ivf_container .i_video_player .player_wrapper:hover .ivf_sa_left {
+    left: 10px;
+    opacity: .8; }
+  .ivf_container .i_video_player .player_wrapper:hover .ivf_sa_right {
+    right: 10px;
+    opacity: .8; }
+  .ivf_container .i_video_player .player_wrapper:hover .slide_progres.spoh_1 {
+    bottom: -3px; }
+
+
+    .buy-button-img {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    display: inline-block;
+    height: 40px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    width: 120px;
+}
+
+.buy-button-img img {
+    cursor: pointer;
+    height: auto;
+    width: 100%;
+}
+
+.grn-border-new{
+  border:2px solid green;
+}
+
+
+.ivf_icons {
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.ivf_icons .ivf_icon_option {
+    border: 1px solid #bebebe;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 80px;
+    margin-right: 12px;
+    position: relative;
+    text-align: center;
+    width: 80px;
+    margin-bottom:5px;
+    
+}
+
+.ivf_icons .ivf_icon_option i {
+    color: #bebebe;
+    font-family: ivf_play !important;
+    font-size: 50px;
+    font-style: normal !important;
+    left: 50%;
+    line-height: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: absolute;
+    top: 50%;
+
+}
+
+.ivf_icons .ivf_options {
+    display: none;
+}
+
+
+.color-icon-sky-blue{
+  color:#00aaf3 !important;
+}
+
+.color-icon-red{
+  color:#AE181F !important;
+}
+
+.color-icon-green{
+  color:#4EC419 !important;
+}
+
+.color-icon-purple{
+  color:#9A76E0 !important;
+}
+
+.color-icon-yellow{
+  color:#FFFF66 !important;
+}
+
+.color-icon-white{
+  color:#ffffff !important;
+}
+
+.color-icon-grey{
+  color:#BDBEC0 !important;
+}
+
+.color-icon-orange{
+  color:#FF5E00 !important;
+}
+
+.color-icon-black{
+  color:#000000 !important;
+}
+
+.grey-bg{
+  background:#eeeeee;
+}
+
+
+.size-mbp-play-icon{
+    font-size: 88px !important;
+    margin-left: -46px !important;
+}
+
+.size-mba-play-icon{
+    font-size: 88px !important;
+    margin-left: -48px !important;
+
+}
+.size-imac-play-icon{
+    font-size: 100px !important;
+    margin-left: -55px !important;
+}
+.size-mbgold-play-icon{
+    font-size: 88px !important;
+    margin-left: -47px !important;  
+}
+.size-mbgrey-play-icon{
+    font-size: 88px !important;
+    margin-left: -47px !important;  
+}
+
+.size-ipadhor-play-icon{
+    font-size: 130px !important;
+    margin-left: -65px !important;
+	margin-top: 5px !important;
+}
+.size-ipadver-play-icon{
+    font-size:130px !important;
+    margin-left: -72px !important;
+
+}
+.size-iphonehor-play-icon{
+    font-size: 85px !important;
+    margin-left: -45px !important;
+}
+.size-iphonever-play-icon{
+    font-size: 90px !important;
+    margin-left: -47px !important;  
+}
+.size-iwatchg-play-icon{
+    font-size: 75px !important;
+    margin-left: -38px !important;
+}
+.size-iwatchs-play-icon{
+    font-size: 75px !important;
+    margin-left: -38px !important;
+}
+.size-iwatchw-play-icon{
+    font-size: 75px !important;
+    margin-left: -38px !important;
+}
+.size-plasma1-play-icon{
+	font-size: 95px !important;
+    margin-left: -54px !important;
+}
+.size-plasma2-play-icon{
+     font-size: 95px !important;
+    margin-left: -54px !important;
+}
+.size-samsungb-play-icon{
+   font-size: 85px !important;
+    margin-left: -47px !important;
+}
+.size-samsungw-play-icon{
+  font-size: 85px !important;
+    margin-left: -47px !important;
+}
+.size-dslr-play-icon{
+  font-size: 85px !important;
+    margin-left: -41px !important;
+}
+
+.size-htchor-play-icon{
+  font-size: 90px !important;
+    margin-left: -46px !important;
+
+}
+.size-htcver-play-icon{
+  font-size: 90px !important;
+    margin-left: -46px !important;
+}

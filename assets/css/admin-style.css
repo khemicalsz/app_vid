@@ -1,0 +1,164 @@
+a.radio-picture {
+	border: 1px solid black;
+	display: inline-block;
+	height: 81px;
+	margin-right: 10px;
+	text-decoration: none;
+	width: 59px;
+	margin-bottom: 10px;
+}
+/*a.radio-picture:hover {
+	border: 2px dashed blue;
+}*/
+a.grn-border {
+	border: 2px solid green;
+}
+
+a#mbp {
+	background: url("../img/mockups/icons/mbp.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+a#mba {
+	background: url("../img/mockups/icons/mba.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#imac {
+	background: url("../img/mockups/icons/imac.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#mbgold {
+	background: url("../img/mockups/icons/mbgold.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#mbgrey {
+	background: url("../img/mockups/icons/mbgrey.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#ipadhor {
+	background: white url("../img/mockups/icons/iPad.png") no-repeat scroll center top / 166% auto;
+	
+}
+
+a#ipadver {
+	background: url("../img/mockups/icons/ipadver.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#iphonehor {
+	background: url("../img/mockups/icons/iPhone.png") no-repeat scroll center top / 166% auto;
+}
+
+a#iphonever {
+	background: url("../img/mockups/icons/iphonever.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#iwatchg {
+	background: url("../img/mockups/icons/iwatchg.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#iwatchs {
+	background: url("../img/mockups/icons/iwatchs.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#iwatchw {
+	background: url("../img/mockups/icons/iwatchw.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+
+a#plasma1 {
+	background: url("../img/mockups/icons/plasma1.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#plasma2 {
+	background: url("../img/mockups/icons/plasma2.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#samsungb {
+	background: url("../img/mockups/icons/samsungb.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#samsungw {
+	background: url("../img/mockups/icons/samsungw.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#dslr {
+	background: url("../img/mockups/icons/dslr.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#htchor {
+	background:white url("../img/mockups/icons/htchor.png") no-repeat local center top / 163% auto
+}
+
+a#htcver {
+	background: url("../img/mockups/icons/htcver.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+a#htcver {
+	background: url("../img/mockups/icons/htcver.png") no-repeat 0 0 white;
+	background-size: 105%;
+}
+
+
+
+.header {
+	padding-bottom: 15px !important;
+	cursor: pointer;
+}
+
+.header > .title > i {
+	float: right;
+    font-size: 30px;
+}
+
+/* Landing imgs */
+
+.land-img {
+    width: 120px;
+    height: 67px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+}
+
+.land-img img {
+	width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.header.landing-img-list {
+	background-color: beige;
+	height: 20px;
+	padding: 10px;
+	margin-bottom: 3px;
+}
+
+.header.landing-img-list .title {
+	line-height: 7px;
+}
+
+.header.landing-img-list > .title > i {
+	line-height: 7px;
+	font-size: 25px;
+}
+
+.header.slider + .content,
+.landing-img-list + .content {
+	display: none;
+}
